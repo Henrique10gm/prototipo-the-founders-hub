@@ -1,0 +1,27 @@
+
+/* src/index.css */
+
+/* A regra @import deve vir antes de qualquer outra regra CSS */
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img {
+  border-radius: 50px;
+}
+
+h1 {
+  font-family: 'Red Hat Display', sans-serif;
+  letter-spacing: -2.5px; /* Aproxima as letras em 1 pixel */
+}
+
+#destaque-laranja{
+    color: rgb(255, 102, 0);
+}
